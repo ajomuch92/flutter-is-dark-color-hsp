@@ -1,7 +1,6 @@
 name: flutter_is_dark_color_hsp
 description: This simple package use HSP color model to determine if a color is light or dark tone
 version: 0.1.0
-author: Aarón Montes
 homepage: https://github.com/ajomuch92/flutter-is-dark-color-hsp
 
 environment:
