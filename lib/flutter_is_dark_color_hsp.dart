@@ -11,7 +11,9 @@ bool isDarkHsp(Color color) {
   int _redValue = color.red;
   int _greenValue = color.green;
   int _blueValue = color.blue;
-  double _hsp = sqrt(rConstant * pow(_redValue, 2) + gConstant * pow(_greenValue, 2) + bConstant * pow(_blueValue, 2));
+  double _hsp = sqrt(rConstant * pow(_redValue, 2) +
+      gConstant * pow(_greenValue, 2) +
+      bConstant * pow(_blueValue, 2));
   return _hsp < hspBoundary;
 }
 
