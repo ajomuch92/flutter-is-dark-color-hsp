@@ -1,7 +1,7 @@
 # Flutter Is Dark Color HSP
 
 
-This package helps to determine if a color is dark tone or light tone. It's useful to use a contrast color (as you can see on demo image) with other. It's base on HSP color model, you can read more about it [here](http://alienryderflex.com/hsp.html).
+This package helps to determine if a color is dark tone or light tone. It's useful to use a contrast color (as you can see on demo image) with other. It's based on HSP color model, you can read more about it [here](http://alienryderflex.com/hsp.html).
 
 <img src="https://raw.githubusercontent.com/ajomuch92/flutter-is-dark-color-hsp/master/assets/demo.gif" width="200" height="429"/>
 
@@ -45,4 +45,4 @@ Container(
 ...
 ```
 
-You could use *isDarkHsp* method to determine if is dark color tone or use *isLightHsp* to determine if is a light color tone
+You could use **isDarkHsp** method to determine if is dark color tone or use **isLightHsp** to determine if is a light color tone
